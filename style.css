@@ -1,0 +1,52 @@
+.header {
+    background-color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.header .header-links a, .header .intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .header-logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .intro button {
+    background-color: #3882F6;
+    padding: 7px 25px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+/*----------------------------*/
+
+.content1 h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.content2 {
+    background-color: #E5E7EB;
+}
+
+.content2 .quotes {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.call-to {
+    background-color: #3882F6;
+}
