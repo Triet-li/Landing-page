@@ -1,5 +1,29 @@
+/* ------------------------GENERAL-------------------- */
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}  
+
+a {
+    text-decoration: none;
+    color: #b2b3b6;
+}
+
+/*---------------------HEADER--------------------------*/
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 150px;
 }
 
 .footer {
@@ -9,16 +33,19 @@
 .header .header-links a, .header .intro p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -25px;
 }
 
 .header .header-logo p {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 .header .intro button {
     background-color: #3882F6;
     padding: 7px 25px;
+    border: 1px solid black;
     color: white;
     border-radius: 8px;
     font-weight: bold;
@@ -30,23 +57,173 @@ h1 {
     color: #F9FAF8;
 }
 
-/*----------------------------*/
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: flex-start;
+    align-items: ceter;
+    margin-top: 10px;
+    
+}
+
+.header .right-side .links ul {
+    display: flex;
+    gap: 18px;
+}
+
+.image {
+    border: 1px;
+    background-color: rgb(83, 83, 81);
+    width: 500px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-bottom: 60px;
+}
+
+.links {
+    margin-bottom: 75px;
+
+}
+
+
+/*-------------CONTENT1---------------*/
+
+.content1 {
+    height: 380px;
+}
 
 .content1 h2 {
     font-size: 36px;
     color: #1F2937;
+    height: 100px;
+    text-align: center;
 }
 
+.content1 .boxes .box {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    
+}
+
+.boxes .box p {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 4px solid rgb(33, 106, 216);
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 30px;
+
+}
+
+
+/*-----------------QUOTE SECTION-------------------*/
 .content2 {
     background-color: #E5E7EB;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content2 .quotes {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    width: 800px;
 }
+
+.quotes-author {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 450px;
+}
+
+
+
+/* -----------------CALL TO ------------------- */
 
 .call-to {
     background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 800px;
+    height: 150px;
+    border-radius: 3px;
+  
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content3 {
+    background-color:#F9FAF8;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstP {
+    font-size: 20px;
+    font-weight: bold;
+    color:#F9FAF8;
+    margin-bottom: -13px;
+}
+
+.secondP {
+    font-size: 15px;
+    color: rgb(199, 202, 202);
+}
+
+.content3 .call-to button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 7px 25px;
+    color: #e3e7f1;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+/*-------------FOOTER-----------------*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color:#E5E7EB;
 }
